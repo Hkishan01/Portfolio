@@ -1,0 +1,330 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.main {
+  background-color: #1a1e23;
+  background-image: url("https://images.unsplash.com/photo-1524169358666-79f22534bc6e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHBvcnRmb2xpbyUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D&w=1000&q=80");
+  background-size: 100%;
+  background-repeat: repeat-y;
+}
+
+.home {
+  height: 100vh;
+  text-align: center;
+}
+.home nav {
+  background-color: rgb(113, 143, 202);
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+.home nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  gap: 40px;
+  padding: 10px;
+  font-size: 1.3em;
+}
+
+.home nav ul li button {
+  font-size: 1.3rem;
+
+  border: none;
+  background-color: rgb(113, 143, 202);
+  color: rgb(238, 231, 231);
+}
+.home #bio {
+  margin: auto;
+  margin-top: 30vh;
+  font-size: 1.5rem;
+}
+.home #bio h1 {
+  margin-top: 10px;
+  color: #d5cea3;
+}
+.home #bio h1:hover {
+  color: blue;
+}
+
+.home #bio p {
+  margin-top: 10px;
+  font-size: 1.4em;
+  color: #d5cea3;
+}
+.home #bio #spl {
+  color: aquamarine;
+}
+
+.home #btn {
+  margin-top: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+}
+.home #btn #btn2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(85, 17, 85);
+}
+.home #btn #btn2:hover {
+  cursor: pointer;
+}
+
+.home #btn #btn2 img {
+  width: 50px;
+  height: 38px;
+}
+.home #btn button {
+  padding: 5px;
+  font-size: 1.4rem;
+  height: 40px;
+}
+.home #btn button a {
+  text-decoration: none;
+}
+/* project section */
+
+.project #pro1,
+#pro2,
+#pro3,
+#pro4 {
+  border: 2px solid red;
+  border-radius: 10px;
+  margin: 5%;
+  height: 90vh;
+}
+
+/* project 1 and 3 */
+
+.project #pro1,
+#pro3,
+#pro2,
+#pro4 {
+  background-color: rgb(46, 43, 43, 0.75);
+  color: white;
+}
+.project #pro1 h1,
+#pro3 h1,
+#pro2 h1,
+#pro4 h1 {
+  margin-top: 5px;
+  text-align: center;
+  font-size: 2.5rem;
+  color: rgb(113, 143, 202);
+}
+.project #pro1 #all #left #tech,
+#pro3 #all #left #tech,
+#pro2 #all #left #tech,
+#pro4 #all #left #tech {
+  margin-top: 10vh;
+  display: flex;
+}
+.project #pro1 #all #left #tech #one,
+#pro3 #all #left #tech #one,
+#pro2 #all #left #tech #one,
+#pro4 #all #left #tech #one {
+  width: 40%;
+}
+.project #pro1 #all #left #tech #one h2,
+#pro3 #all #left #tech #one h2,
+#pro2 #all #left #tech #one h2,
+#pro4 #all #left #tech #one h2 {
+  font-size: 2rem;
+  padding: 3px;
+  color: rgb(113, 143, 202);
+}
+
+.project #pro1 #all #left #tech p,
+#pro3 #all #left #tech p,
+#pro2 #all #left #tech p,
+#pro4 #all #left #tech p {
+  margin: auto;
+  font-size: 1.7rem;
+}
+.project #pro1 p,
+#pro3 p {
+  margin-left: 8px;
+  margin-top: 10vh;
+  font-size: 1.5rem;
+  word-spacing: 3px;
+}
+.project #pro2 p,
+#pro4 p {
+  margin-left: 15px;
+  margin-top: 10vh;
+  font-size: 1.5rem;
+  word-spacing: 3px;
+}
+.project #pro1 #all,
+#pro3 #all,
+#pro2 #all,
+#pro4 #all {
+  display: flex;
+  margin: auto;
+}
+.project #pro1 #all #left,
+#pro3 #all #left,
+#pro2 #all #left,
+#pro4 #all #left {
+  width: 50%;
+  height: 80vh;
+}
+.project #pro1 #all #right,
+#pro3 #all #right,
+#pro2 #all #right,
+#pro4 #all #right {
+  width: 50%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.project #pro1 #all #right #image,
+#pro3 #all #right #image,
+#pro2 #all #right #image,
+#pro4 #all #right #image {
+  display: flex;
+  overflow: scroll;
+}
+.project #pro1 #all #right #image img,
+#pro3 #all #right #image img,
+#pro2 #all #right #image img,
+#pro4 #all #right #image img {
+  margin-left: 10px;
+  height: 50vh;
+  width: 44vw;
+}
+
+.project #pro1 #all #right #btn,
+#pro3 #all #right #btn,
+#pro2 #all #right #btn,
+#pro4 #all #right #btn {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 10px;
+}
+.project #pro1 #all #right #btn button,
+#pro3 #all #right #btn button,
+#pro2 #all #right #btn button,
+#pro4 #all #right #btn button {
+  padding: 10px;
+  font-size: 1.4rem;
+}
+
+/* Skills */
+
+.skill {
+  background-color: rgb(29, 21, 21, 0.5);
+  border: 2px solid red;
+  margin: 5%;
+  height: 100%;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.skill span {
+  width: 200px;
+  height: 180px;
+}
+.skill span img {
+  padding: 10px;
+  width: 150px;
+  height: px;
+  color: white;
+
+  border-radius: 50%;
+}
+.skill span :hover {
+  transition: transform 0.5s;
+  transform: rotate(360deg);
+  scale: 1.3;
+}
+
+/* contact */
+.contact {
+  margin: 5%;
+  border: 2px solid red;
+  background-color: white;
+  height: 90vh;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.contact h2 {
+  margin-left: auto;
+  margin-right: auto;
+}
+.contact #cnt {
+  display: flex;
+}
+.contact #cnt form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50%;
+  height: 80vh;
+  margin-left: 10px;
+}
+
+.contact #cnt form label {
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+.contact #cnt form input {
+  width: 80%;
+  height: 6vh;
+  font-size: 1.2rem;
+}
+.contact #cnt form textarea {
+  width: 80%;
+  height: 15vh;
+  font-size: 1.1rem;
+}
+.contact #cnt form button {
+  box-sizing: border-box;
+  margin: auto;
+  padding: 5px;
+  font-size: 1.5rem;
+}
+.contact #cnt img {
+  width: 50%;
+}
+.contact #mail {
+  align-items: flex-end;
+}
+/* Footer */
+
+.footer {
+  height: 15vh;
+  background-color: rgb(37, 30, 30, 0.6);
+  display: flex;
+}
+
+.footer #h12 {
+  color: bisque;
+  width: 40%;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.footer #av {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.footer #av a img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  transition: transform 0.7s ease-in-out;
+}
+.footer #av a :hover {
+  transform: rotate(360deg);
+  scale: 1.3;
+}
